@@ -89,9 +89,7 @@ const AddressForm = ({ checkoutToken, next}) => {
                   </MenuItem>
                 ))}
               </Select>
-            </Grid>
-            <Grid item xs={12} sm={6}><Button type="submit" variant="contained" color="primary" >Upload your shipping list image</Button>
-            </Grid>
+            </Grid>            
           </Grid>
           <br />
           <div style={{ display: 'flex', justifyContent: 'space-between' }}>
